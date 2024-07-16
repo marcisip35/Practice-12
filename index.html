@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" ></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dog and Cat Filter</title>
+        <link rel="stylesheet" href="./styles.css"/>
+        <script defer src="app.js"></script>
+    </head>
+
+    <body>
+        <section id="Main-Content">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="title">
+                        <h1>Select The Animal You Want</h1>
+                    </div>
+                    <div class="filter">
+                        <select id="Gender">
+                            <option value="none">Gender...</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+
+                        <select id="Age">
+                            <option value="none">Age...</option>
+                            <option value="young">Young</option>
+                            <option value="middleAge">Mature</option>
+                            <option value="old">Old</option>
+                        </select>
+                    </div>
+
+                    <div class="content">
+                        <ul class="animals">
+                            <li id="male young"><img src="./assets/cat1.jpeg"></li>
+                            <li id="female young"><img src="./assets/cat2.jpeg"></li>
+                            <li id="male middleAge"><img src="./assets/cat3.jpeg"></li>
+                            <li id="male old"><img src="./assets/dog1.jpeg"></li>
+                            <li id="female old"><img src="./assets/cat4.jpeg"></li>
+                            <li id="female middleAge"><img src="./assets/dog2.jpeg"></li>
+                            <li id="male young"><img src="./assets/dog3.jpeg"></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
